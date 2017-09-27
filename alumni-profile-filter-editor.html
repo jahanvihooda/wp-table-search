@@ -1,0 +1,30 @@
+[wpv-filter-start hide="false"]
+[wpv-filter-controls]
+
+<div class="alumni-panel">
+    <div class="alumni-heading">Profile Search</div>
+    <div class="panel-content">
+        <div class="search-control">
+            [wpml-string context="wpv-views"]<strong>Name:</strong><br/>[/wpml-string][wpv-filter-search-box]
+        </div>
+        <div class="search-control">
+            [wpml-string context="wpv-views"]<strong>Program:</strong><br/>[/wpml-string][wpv-control field="alumni-profile-program" url_param="alumni-profile-program" type="select" auto_fill="wpcf-alumni-profile-program" auto_fill_default=" -All- " auto_fill_sort="asc"]
+        </div>
+        <div class="search-control">
+            [wpml-string context="wpv-views"]<strong>Graduation Year:</strong><br/>[/wpml-string][wpv-control field="alumni-profile-year-graduated" url_param="alumni-profile-year-graduated" type="select" auto_fill="wpcf-alumni-profile-year-graduated" auto_fill_default=" -All- " auto_fill_sort="asc"]
+        </div>
+        <br/>
+        <div class="search-control">
+            [wpv-filter-submit name="Search" class="alumni-search-button" type="button"]
+        </div> 
+        <div class="search-control">
+            [wpv-filter-reset reset_label="Reset" class="alumni-search-button" type="button"]
+        </div>
+        <div class="search-control">
+            [wpv-filter-spinner container="div" position="before" spinner="http://fes.yorku.ca/wp-content/plugins/wp-views/embedded/res/img/ajax-loader4.gif"]Loading...[/wpv-filter-spinner]
+        </div>
+    </div>
+</div>
+
+[/wpv-filter-controls]
+[wpv-filter-end]

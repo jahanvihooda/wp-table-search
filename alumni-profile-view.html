@@ -1,0 +1,21 @@
+[wpv-layout-start]
+[wpv-items-found]
+<div class="profile-wrapper">
+    <!-- wpv-loop-start -->
+    <wpv-loop>
+        <a href="[wpv-post-url]">
+            <div class="profile-item-wrapper">
+                <div class="profile-profile-img">[wpv-post-featured-image size='medium']</div>
+                <div class="profile-name">[types field='alumni-profile-first-name'][/types] [types field='alumni-profile-last-name'][/types]</div>
+                <div class="profile-job">[types field='alumni-profile-jobs'][/types]</div>
+                <div class="profile-program-grad">[types field='alumni-profile-program' output='raw'][/types], [types field='alumni-profile-year-graduated'][/types]</div>
+            </div>
+        </a>
+    </wpv-loop>
+    <!-- wpv-loop-end -->
+</div>
+[/wpv-items-found]
+[wpv-no-items-found]
+<strong>[wpml-string context="wpv-views"]No items found[/wpml-string]</strong>
+[/wpv-no-items-found]
+[wpv-layout-end]
