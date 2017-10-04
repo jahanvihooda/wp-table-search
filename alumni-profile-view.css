@@ -53,3 +53,18 @@
 .profile-program-grad {
     text-transform: uppercase;
 }
+
+.page-control {
+    display:inline-block;
+}
+
+.page-control-next {
+    float:right;
+    display:inline-block;
+}
+
+.page-control-previous {
+    display:inline-block;
+    float:right;
+    margin-right:30px;
+}
